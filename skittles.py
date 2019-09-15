@@ -11,7 +11,7 @@ guess = int(input("O hai! I'm thinking of a number between 0 and 1023. What is i
 
 while guess != random_number:
     
-#Hints that helps the user guess more accurately
+#Hints that helps the user guess more accurately.(sort of like the phonebook method) 
     
     if guess > random_number and guess < 1023:
         print("Nope! There are fewer Skittles than that. Guess again.")
